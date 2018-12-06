@@ -1,0 +1,27 @@
+# Ignore everything in root
+/*
+!/pies.default/
+
+# Except
+!/.gitignore
+!/profiles.ini
+!/README.md
+
+# Extentions
+/pies.default/*
+!/pies.default/blocklists/
+!/pies.default/extensions/
+!/pies.default/browser-extention-data/vim-vixen*/*
+!/pies.default/browser-extention-data/adnauseam*/*
+
+# Root files
+!/pies.default/addonStartup.json.lz4
+!/pies.default/addons.json
+!/pies.default/extensions.json
+!/pies.default/prefs.js
+!/pies.default/search.json.mozlz4
+!/pies.default/sessionCheckpoints.json
+!/pies.default/xulstore.json
+
+# Bookmarks
+!/pies.default/bookmarkbackups/
